@@ -1,0 +1,21 @@
+body {
+    background-color: #000;
+    color: white;
+    margin: 5%;
+}
+
+div img {
+    display: block;
+    margin: auto;
+    width: 50%
+}
+
+div h1 {
+    color: red;
+    text-align: center;
+}
+
+div p {
+    color: gray;
+    text-align: center;
+}
