@@ -4,7 +4,7 @@ body {
     margin: 5%;
 }
 
-div img {
+.mascotte {
     display: block;
     margin: auto;
     width: 50%
