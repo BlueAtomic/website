@@ -14,6 +14,7 @@
 
     <body>
         <div class="text-center">
+            <h1 style="color: red">Fix the cache not updating!!!!!!!!!!!</h1>
             <a class="btn btn-warning" href="index.html">
                 <i class="fa-solid fa-home"></i>
                 Back to home
