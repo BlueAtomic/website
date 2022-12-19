@@ -14,6 +14,10 @@
 
     <body>
         <div class="text-center">
+            <a class="btn btn-warning" href="index.html">
+                <i class="fa-solid fa-home"></i>
+                Back to home
+            </a>
             <h1>About Us</h1>
             <p>We are a dedicated team of college students, with a dream to serve people with fun, minimalistic games whether on roblox, terminal or other means. We want to provide people with useful products that adhere to the FOSS initiative, allowing everyone to see the code that we apply, as well as allowing them to see that our products are not malicious. Additionally, we always love to receive contributions to our products by our users in our repositories.</p>
             <hr>
