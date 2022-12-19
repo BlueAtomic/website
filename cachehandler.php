@@ -39,6 +39,22 @@ try {
                 "storm" => Array (
                     "name" => getName(1052129761285132419),
                     "avatar" => getAv(1052129761285132419)
+                ),
+                "sith" => Array (
+                    "name" => getName(572058099507265556),
+                    "avatar" => getAv(572058099507265556)
+                ),
+                "dino" => Array (
+                    "name" => getName(1015217462561738822),
+                    "avatar" => getAv(1015217462561738822)
+                ),
+                "ndua" => Array (
+                    "name" => getName(1045674575540781146),
+                    "avatar" => getAv(1045674575540781146)
+                ),
+                "yil" => Array (
+                    "name" => getName(792837571670966342),
+                    "avatar" => getAv(792837571670966342)
                 )
             )
         );
