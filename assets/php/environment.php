@@ -1,0 +1,2 @@
+<?php
+$bot_token = "";
