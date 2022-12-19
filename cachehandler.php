@@ -1,7 +1,7 @@
 <?php
 $getDate = date("d");
 
-include 'users.php';
+include 'assets/scripts/users.php';
 
 function dayNr() {
     $json = file_get_contents('cache.json');
