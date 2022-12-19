@@ -9,7 +9,7 @@
         <script src="https://kit.fontawesome.com/d1393c407a.js" crossorigin="anonymous"></script>
     </head>
 
-    <?php include 'test.php';?>
+    <?php include 'assets/scripts/cachehandler.php';?>
 
     <body>
         <div>
