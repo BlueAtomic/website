@@ -51,7 +51,6 @@ try {
 
         print "<script>console.log('Updated cache successfully')</script>";
     }
-    echo dayNr();
 } catch (Error $error) {
     echo "<script>console.error('$error')</script>";
 }
