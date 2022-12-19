@@ -21,17 +21,16 @@ function getUser(string $user, bool $name) : string {
 }
 
 echo "<br>$getDate <- current date | saved date -> ";
-echo loadJson();
+echo dayNr();
 
 try {
-    if (date("d") == loadJson()) {
+    if ($getDate == dayNr()) {
         echo "<br>Cached Already<br>";
         print "<script>console.log('Loaded cache')</script>";
-        echo loadJson();
     } else {
         echo "<script>console.log('Updating cache from old cache...')</script>";
         echo "<br>updating cache, old cache was on:<br>";
-        echo loadJson();
+        echo dayNr();
         $json = file_get_contents('cache.json');
         $decoded = json_decode($json, true);
         $decoded = ["day" => $getDate];
@@ -54,10 +53,15 @@ try {
         file_put_contents("cache.json", json_encode([]));
         file_put_contents('cache.json', $json);
 
+
+
         print "<script>console.log('Updated cache, refer to web page for current cache')</script>";
         echo "<br><br>updated cache, cache is now on:<br>";
-        echo loadJson();
     }
+    echo dayNr();
 } catch (Error $error) {
     echo $error;
 }
+
+echo getUser("storm", true);
+echo getUser("storm", false);
