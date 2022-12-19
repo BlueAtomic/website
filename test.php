@@ -25,12 +25,9 @@ echo dayNr();
 
 try {
     if ($getDate == dayNr()) {
-        echo "<br>Cached Already<br>";
-        print "<script>console.log('Loaded cache')</script>";
+        echo "<script>console.log('Loaded cache')</script>";
     } else {
-        echo "<script>console.log('Updating cache from old cache...')</script>";
-        echo "<br>updating cache, old cache was on:<br>";
-        echo dayNr();
+        echo "<script>console.warn('Outdated cache, updating now.')</script>";
         $json = file_get_contents('cache.json');
         $decoded = json_decode($json, true);
         $decoded = ["day" => $getDate];
@@ -55,12 +52,11 @@ try {
 
 
 
-        print "<script>console.log('Updated cache, refer to web page for current cache')</script>";
-        echo "<br><br>updated cache, cache is now on:<br>";
+        print "<script>console.log('Updated cache successfully')</script>";
     }
     echo dayNr();
 } catch (Error $error) {
-    echo $error;
+    echo "<script>console.error('$error')</script>";
 }
 
 echo getUser("storm", true);
