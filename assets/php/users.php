@@ -3,7 +3,7 @@
 function getAv($id)
 {
 
-    $bot_token = '';
+    $bot_token = ''; // Do not add your discord bot token here, make a new environment.php file with this variable
 
     include 'environment.php';
     $json_options = [
@@ -27,7 +27,7 @@ function getAv($id)
     $a .= "/";
     $a .= $json_decode['avatar'];
     $a .= "?size=2048";
-    echo $a;
+    return $a;
 }
 
 function getName($id)
@@ -55,7 +55,7 @@ function getName($id)
     $a = $json_decode['username'];
     $a .= '#';
     $a .= $json_decode['discriminator'];
-    echo $a;
+    return $a;
 
     //echo $a;
 }
