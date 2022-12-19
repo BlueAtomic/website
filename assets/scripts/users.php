@@ -22,12 +22,17 @@ function getAv($id)
 
     $json_decode = json_decode($json_get, true);
 
-    $a = "https://cdn.discordapp.com/avatars/";
-    $a .= $id;
-    $a .= "/";
-    $a .= $json_decode['avatar'];
-    $a .= "?size=2048";
-    return $a;
+    if (!$json_decode['avatar']) {
+        $a = 'https://cdn.discordapp.com/avatars/1021102853915422770/eb255d51dba029547e0fdefeaf6efebe?size=2048';
+        return $a;
+    } else {
+        $a = "https://cdn.discordapp.com/avatars/";
+        $a .= $id;
+        $a .= "/";
+        $a .= $json_decode['avatar'];
+        $a .= "?size=2048";
+        return $a;
+    }
 }
 
 function getName($id)
