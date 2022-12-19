@@ -1,7 +1,7 @@
 body {
     background-color: #000;
     color: white;
-    margin: 5%;
+    margin: 5% 5% 0;
 }
 
 .mascotte {
@@ -10,7 +10,7 @@ body {
     width: 50%
 }
 
-div h1 {
+div h1, div h2 {
     color: purple;
 }
 
