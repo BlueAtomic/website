@@ -20,9 +20,6 @@ function getUser(string $user, bool $name) : string {
     }
 }
 
-echo "<br>$getDate <- current date | saved date -> ";
-echo dayNr();
-
 try {
     if ($getDate == dayNr()) {
         echo "<script>console.log('Loaded cache')</script>";
@@ -58,6 +55,3 @@ try {
 } catch (Error $error) {
     echo "<script>console.error('$error')</script>";
 }
-
-echo getUser("storm", true);
-echo getUser("storm", false);
