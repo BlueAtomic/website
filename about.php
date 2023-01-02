@@ -61,7 +61,7 @@
                                 <img src="<?php echo getUser("dino", false) ?>" class="img-fluid  img-thumbnail rounded-circle" alt="Dino avatar">
                                 <div class="content mt-2">
                                     <h4><?php echo getUser("dino", true) ?></h4>
-                                    <p class="text-muted">avatarless Developer</p>
+                                    <p class="text-muted">Developer</p>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@
                                 <img src="<?php echo getUser("ndua", false) ?>" class="img-fluid  img-thumbnail rounded-circle" alt="Ndua avatar">
                                 <div class="content mt-2">
                                     <h4><?php echo getUser("ndua", true) ?></h4>
-                                    <p class="text-muted">avatarless Developer</p>
+                                    <p class="text-muted">Developer</p>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +81,7 @@
                                 <img src="<?php echo getUser("yil", false) ?>" class="img-fluid  img-thumbnail rounded-circle" alt="Yil avatar">
                                 <div class="content mt-2">
                                     <h4><?php echo getUser("yil", true) ?></h4>
-                                    <p class="text-muted">avatarless Developer</p>
+                                    <p class="text-muted">Developer</p>
                                 </div>
                             </div>
                         </div>
