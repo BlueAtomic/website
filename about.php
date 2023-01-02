@@ -10,7 +10,7 @@
         <script src="https://kit.fontawesome.com/d1393c407a.js" crossorigin="anonymous"></script>
     </head>
 
-    <?php include 'cachehandler.php';?>
+    <?php include 'getusers.php';?>
 
     <body>
         <div class="text-center">
