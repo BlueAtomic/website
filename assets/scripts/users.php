@@ -26,6 +26,7 @@ function getAv($id)
 
     if (!$json_decode['avatar']) {
         $id = '1021102853915422770';
+        echo "<script> console.error('Failed to connect to API for avatars. The user might not have an avatar set. Otherwise, if all users have the same avatar; please inform my developers that the API key may be expired.') </script>";
     } else {
         $avatar = $json_decode['avatar'];
     }
@@ -56,10 +57,16 @@ function getName($id)
 
     $json_decode = json_decode($json_get, true);
 
-    $a = $json_decode['username'];
-    $a .= '#';
-    $a .= $json_decode['discriminator'];
-    return $a;
+    if (!$json_decode['username']) {
+        $a = "404";
+        echo "<script> console.error('Failed to connect to API for usernames. Please confirm that the key is not expired.') </script>";
+        return $a;
+    } else {
+        $a = $json_decode['username'];
+        $a .= '#';
+        $a .= $json_decode['discriminator'];
+        return $a;
+    }
 
     //echo $a;
 }
