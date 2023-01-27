@@ -28,7 +28,7 @@ function dateCompare() : bool {
         $json_options = [
             "http" => [
                 "method" => "GET",
-                "header" => "Authorization: Bot $key"
+                "header" => "Authorization: Bot $key" # This requires an additional PHP file, please make a keys.php file in assets/scripts/ and return your discord bot token
             ]
         ];
 
