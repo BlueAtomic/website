@@ -75,9 +75,7 @@ if (!dateCompare()) {
             "zen" => getData(682609654504882186),
             "storm" => getData(1052129761285132419),
             "sith" => getData(572058099507265556),
-            "dino" => getData(1015217462561738822),
-            "ndua" => getData(1045674575540781146),
-            "yil" => getData(792837571670966342),
+            "dino" => getData(1015217462561738822)
         )
     );
 
