@@ -56,16 +56,6 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6 col-lg-3">
-                            <div class="img-block mb-5">
-                                <img src="<?php echo getUser("dino", false) ?>" class="img-fluid  img-thumbnail rounded-circle" alt="Dino avatar">
-                                <div class="content mt-2">
-                                    <h4><?php echo getUser("dino", true) ?></h4>
-                                    <p class="text-muted">Developer</p>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </section>
