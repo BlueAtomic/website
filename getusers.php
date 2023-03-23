@@ -74,7 +74,8 @@ if (!dateCompare()) {
         "team" => array(
             "zen" => getData(682609654504882186),
             "storm" => getData(1052129761285132419),
-            "sith" => getData(572058099507265556)
+            "sith" => getData(572058099507265556),
+            "duck" => getData(257111149370146817)
         )
     );
 
