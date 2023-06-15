@@ -13,63 +13,14 @@
     <?php include 'getusers.php';?>
 
     <body>
-        <div class="text-center">
-            <a class="btn btn-warning" href="index.html">
-                <i class="fa-solid fa-home"></i>
-                Back to home
-            </a>
-            <h1>About Us</h1>
-            <p>We are a dedicated team of college students, with a dream to serve people with fun, minimalistic games whether on roblox, terminal or other means. We want to provide people with useful products that adhere to the FOSS initiative, allowing everyone to see the code that we apply, as well as allowing them to see that our products are not malicious. Additionally, we always love to receive contributions to our products by our users in our repositories.</p>
-            <hr>
-            <h2>Our team</h2>
-
-            <section class="text-center py-5 justify-content-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-3">
-                            <div class="img-block mb-5">
-                                <img src="<?php echo getUser("storm", false) ?>" class="img-fluid  img-thumbnail rounded-circle" alt="Stormsnuitje avatar">
-                                <div class="content mt-2">
-                                    <h4><?php echo getUser("storm", true) ?></h4>
-                                    <p class="text-muted">Owner</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6 col-lg-3">
-                            <div class="img-block mb-5">
-                                <img src="<?php echo getUser("duck", false) ?>" class="img-fluid  img-thumbnail rounded-circle" alt="Sith avatar">
-                                <div class="content mt-2">
-                                    <h4><?php echo getUser("duck", true) ?></h4>
-                                    <p class="text-muted">Developer</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-3">
-                            <div class="img-block mb-5">
-                                <img src="<?php echo getUser("zen", false) ?>" class="img-fluid  img-thumbnail rounded-circle" alt="Zenith avatar">
-                                <div class="content mt-2">
-                                    <h4><?php echo getUser("zen", true) ?></h4>
-                                    <p class="text-muted">Owner</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6 col-lg-3">
-                            <div class="img-block mb-5">
-                                <img src="<?php echo getUser("sith", false) ?>" class="img-fluid  img-thumbnail rounded-circle" alt="Sith avatar">
-                                <div class="content mt-2">
-                                    <h4><?php echo getUser("sith", true) ?></h4>
-                                    <p class="text-muted">Developer</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-        </div>
+        <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+                <li><a href='index.php'>Home</a></li>
+                <li><a href='about.php'>About</a></li>
+                <li><a href='support.php'>Support</a></li>
+                <li><a href='privacy.php'>Privacy</a></li>
+            </ul>
+        </nav>
     </body>
 </html>
