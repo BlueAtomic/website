@@ -2,11 +2,10 @@
 
 <html lang="en">
     <head>
-        <title>About Blue Atomic</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="assets/css/team.css">
-        <script src="https://kit.fontawesome.com/d1393c407a.js" crossorigin="anonymous"></script>
+        <title>Blue Atomic | About</title>
+        <link rel="stylesheet" href="src/assets/styling/navbar.css">
+        <link rel="stylesheet" href="src/assets/styling/home.css">
+        <meta name="viewport" content="width=device-width">
     </head>
 
     <?php include 'getusers.php';?>
