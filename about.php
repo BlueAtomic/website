@@ -8,8 +8,6 @@
         <meta name="viewport" content="width=device-width">
     </head>
 
-    <?php include 'getusers.php';?>
-
     <body>
         <nav id='menu'>
             <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
