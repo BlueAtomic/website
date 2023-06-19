@@ -8,6 +8,17 @@
         <meta name="viewport" content="width=device-width">
     </head>
 
+    <script>
+        function updatemenu() {
+            if (document.getElementById('responsive-menu').checked == true) {
+                document.getElementById('menu').style.borderBottomRightRadius = '0';
+                document.getElementById('menu').style.borderBottomLeftRadius = '0';
+            }else{
+                document.getElementById('menu').style.borderRadius = '50px';
+            }
+        }
+    </script>
+
     <body>
         <nav id='menu'>
             <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
