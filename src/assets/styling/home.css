@@ -1,0 +1,78 @@
+@import url('root.css');
+
+body {
+    background-color: var(--white);
+    color: var(--black);
+    font-family: var(--font-primary);
+}
+
+.text-highlight {
+    color: var(--text-primary)
+}
+
+.subtitle {
+    color: var(--subtitle);
+}
+
+.flex-container{
+    width: 100%;
+    height: 97vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+img {
+    margin-left: 50px;
+    text-align: right;
+    float: right !important;
+}
+
+@media (max-width: 786px) {
+    img {
+        display: none;
+    }
+}
+
+.btn {
+    padding: 10px max(2.1875rem, min(calc(2.142rem + .1942vw), 2.375rem));
+    border-radius: 1000px;
+    border: hidden;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: var(--main-primary);
+    color: var(--white)
+}
+
+.btn-primary:hover {
+    background-color: var(--main-secondary);
+}
+
+b {
+    color: var(--black);
+}
+
+.footer {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 0 0 0;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
+}
