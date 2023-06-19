@@ -29,5 +29,9 @@
                 <li><a href='privacy.php'>Privacy</a></li>
             </ul>
         </nav>
+
+        <div style="margin-top: 50px">
+            <h1 class="center">About the company</h1>
+        </div>
     </body>
 </html>
