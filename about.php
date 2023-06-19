@@ -2,7 +2,7 @@
 
 <html lang="en">
     <head>
-        <title>Blue Atomic | About</title>
+        <title>Wolfsvale | About</title>
         <link rel="stylesheet" href="src/assets/styling/navbar.css">
         <link rel="stylesheet" href="src/assets/styling/home.css">
         <meta name="viewport" content="width=device-width">
