@@ -100,3 +100,35 @@ b {
 .center {
     text-align: center;
 }
+
+.container {
+    margin: auto;
+    width: 50%
+}
+
+.image-text-align {
+    display: flex;
+}
+
+.image-round {
+    border-radius: 50%;
+    border-style: groove;
+}
+
+@media screen and (max-width: 800px) {
+    .image-text-align {
+        display: unset;
+    }
+
+    .image-text-align img {
+        text-align: center;
+    }
+
+    .container {
+        width: unset;
+    }
+}
+
+div#team {
+    white-space: nowrap;
+}
