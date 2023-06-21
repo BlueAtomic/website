@@ -18,8 +18,8 @@
       <b class="copyright">© 2023 - <?php echo date("Y"); ?></b>
     </div>
 
-    </div>
-      <img src="src/assets/images/AtomicLogo.png" alt="yay">
+    <div id="logo">
+      <img src="src/assets/images/AtomicLogo.png" alt="yay" class="disablePhoneDisplay">
     </div>
   </body>
 </html>
