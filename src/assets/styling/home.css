@@ -33,10 +33,35 @@ img {
     float: right !important;
 }
 
-@media (max-width: 786px) {
-    img {
-        display: none;
-    }
+.ml-50 {
+    margin-left: 50px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+#volunteer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px){
+    #volunteer {display: block}
+    #logo {display: none !important;}
+    #team {display: block !important;text-align: center}
+    img {float: unset !important;}
+    .mr-50 {margin: unset}
+    .ml-50 {margin: unset}
+    #mascotte {text-align: center !important}
 }
 
 .btn {
