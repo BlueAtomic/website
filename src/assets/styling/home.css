@@ -1,9 +1,11 @@
 @import url('root.css');
 
 body {
+    height: 100vh;
     background-color: var(--white);
     color: var(--black);
     font-family: var(--font-primary);
+    /*margin: 0;*/
 }
 
 .text-highlight {
@@ -131,4 +133,20 @@ b {
 
 div#team {
     white-space: nowrap;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    background-color: var(--main-primary);
+    color: var(--white);
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    footer{width:unset;}
 }
