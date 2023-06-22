@@ -64,6 +64,7 @@ img {
     .mr-50 {margin: unset}
     .ml-50 {margin: unset}
     #mascotte {text-align: center !important}
+    .disablePhoneDisplay {display: none}
 }
 
 .btn {
