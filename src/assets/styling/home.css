@@ -140,13 +140,15 @@ div#team {
 footer {
     left: 0;
     bottom: 0;
-    margin: auto;
     width: 50%;
     background-color: var(--main-primary);
     color: var(--white);
     text-align: center;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    /*border-top-left-radius: 50px;*/
+    /*border-top-right-radius: 50px;*/
+    border-radius: 50px;
+    position: relative;
+    margin: 10px auto auto;
 }
 
 @media screen and (max-width: 800px) {
