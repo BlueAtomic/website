@@ -105,8 +105,6 @@
             </div>
         </div>
 
-        <footer>
-            <p style="padding: 10px">© 2023 - <?php echo date("Y") ?> by Wolfsvale Software<br>Contact: <a href="mailto:miataboymx@gmail.com" style="text-decoration: none;color:var(--white)">miataboymx@gmail.com</a> | KVK: Pending</p>
-        </footer>
+        <?php include_once('src/assets/components/footer.php') ?>
     </body>
 </html>
