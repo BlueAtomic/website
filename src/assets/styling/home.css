@@ -169,3 +169,8 @@ a {
     text-decoration: unset;
     color: var(--main-primary)
 }
+
+code {
+    color: var(--main-secondary);
+    font-family: Calibri, 'cursive';
+}
