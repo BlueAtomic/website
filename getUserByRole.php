@@ -16,8 +16,7 @@ function dateCompare() : bool {
     return $result;
 }
 
-function getData()
-{
+function getData() {
 
     $bot_token = require_once('config.php');
 
