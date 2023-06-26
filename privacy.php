@@ -58,7 +58,7 @@
             <ul>
                 <li> <a href="privacy/pingernos.php">Pingernos Bot - 22-06-2023</a></li>
                 <li> <a href="privacy/aterguides.php">Aternos Guides - 22-06-2023</a></li>
-                <li> <a href="privacy/dragonet.php">Dragonet - 22-06-2023</a></li>
+<!--                <li> <a href="privacy/dragonet.php">Dragonet - 22-06-2023</a></li>-->
             </ul>
         </div>
 
