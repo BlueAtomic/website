@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width">
   </head>
 
-  <body>
+  <body class="hide-overflow">
     <div class="flex-container">
       <div>
       <h1> <span class="text-highlight">Wolfsvale</span> Open-source software solutions</h1>
