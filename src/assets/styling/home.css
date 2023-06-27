@@ -176,7 +176,7 @@ a {
 
 code {
     color: var(--main-secondary);
-    font-family: Calibri, 'cursive';
+    font-family: Calibri, var(--font-primary);
 }
 
 h1, h2, h3 {
