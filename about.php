@@ -11,16 +11,6 @@
     <?php include_once('src/assets/components/navbar.php') ?>
 
     <body>
-        <nav id='menu'>
-            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
-            <ul>
-                <li><a href='index.php'>Home</a></li>
-                <li><a href='about.php'>About</a></li>
-<!--                 <li><a href='support.php'>Support</a></li> Temporarily replaced with discord support link until page finished-->
-                <li><a href='https://discord.gg/Ukr89GrMBk' target="_blank">Support</a></li>
-                <li><a href='privacy.php'>Privacy</a></li>
-            </ul>
-        </nav>
 
         <div style="margin-top: 50px" class="container">
             <div id="about">
