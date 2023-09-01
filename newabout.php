@@ -7,17 +7,42 @@
         <meta charset="UTF-8">
         <meta name="author" content="Wolfsvale Software">
         <meta name="description" content="Our mission at Wolfsvale is to provide the market with more FOSS products. We want to ensure that everyone gets a chance, no matter the money.">
+        <link rel="stylesheet" href="src/assets/newstyling/navbar.css">
+        <link rel="stylesheet" href="src/assets/newstyling/about.css">
+        <script src="https://kit.fontawesome.com/d1393c407a.js" crossorigin="anonymous"></script>
     </head>
 
+    <?php include "src/assets/newcomponents/navbar.php"?>
+
     <body>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed aliquam risus. Pellentesque ante mi, scelerisque eget luctus et, hendrerit a felis. Integer semper fringilla erat ac hendrerit. Pellentesque ultricies magna dolor, eget maximus ex sodales at. Donec ac cursus dui, vitae fringilla tellus. Ut at pharetra mauris, pharetra ullamcorper turpis. Praesent arcu est, finibus at odio eget, molestie efficitur sem. Phasellus in libero tincidunt, mollis dui sed, euismod mauris. Mauris nunc libero, suscipit sed velit quis, tincidunt posuere nulla. Etiam pulvinar massa in leo mollis, non fringilla magna faucibus. Maecenas sit amet mi in sapien congue lobortis. Vivamus sit amet hendrerit nibh. Quisque pellentesque nulla et ex feugiat, ut posuere ipsum aliquam. Sed volutpat leo et turpis faucibus, bibendum pharetra risus convallis. Nulla quam neque, finibus vitae blandit vel, maximus vel justo. Pellentesque bibendum, est ut sagittis maximus, risus nisl lacinia nibh, nec luctus lectus massa nec risus.
-
-    Quisque augue lacus, aliquam ut eros ac, accumsan tempor sem. Ut nec gravida lacus. Nulla eu magna massa. Praesent facilisis nibh nunc, efficitur iaculis dolor consectetur ac. Mauris vitae odio at nunc hendrerit dictum. Integer et faucibus quam. Vivamus tortor lectus, pharetra et tellus vitae, consectetur tempor turpis. Cras in convallis ante, a porta magna. Vestibulum quis nulla quis erat mollis feugiat quis eu ex. Pellentesque enim mauris, rhoncus accumsan cursus ac, vestibulum a justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus faucibus pharetra laoreet. Maecenas semper elementum nulla id condimentum. Donec elit risus, volutpat a dignissim lacinia, pellentesque eu lorem. Quisque sollicitudin justo vitae est luctus dictum.
-
-    Nam cursus nibh tempor libero laoreet, quis porttitor diam feugiat. Nullam iaculis mi eget gravida volutpat. Curabitur sit amet semper dui. Donec ultricies pretium urna, cursus dignissim est pulvinar id. Morbi ultricies quis massa at congue. Pellentesque placerat ante odio, nec dictum felis aliquet fringilla. Aenean sit amet mollis tortor. Donec facilisis, ante ultrices tincidunt mollis, urna arcu commodo eros, non imperdiet felis ligula a purus. Mauris tincidunt nulla non enim scelerisque, in tristique mi sagittis. Duis felis orci, mattis at magna quis, consectetur efficitur metus. Praesent nec lorem felis.
-
-    Etiam varius justo id lorem rutrum, eget rhoncus ex efficitur. Suspendisse potenti. Vivamus et pulvinar magna. Nam aliquet ipsum elit, vitae ullamcorper dolor facilisis a. Ut non leo et dolor mattis vestibulum eget in sapien. Phasellus aliquam ornare consequat. Vestibulum quis ullamcorper tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus cursus turpis eu leo dapibus porta. Vestibulum condimentum dui vitae mauris varius, a dignissim orci porttitor. Etiam sed rhoncus velit. Quisque nec dolor gravida risus venenatis efficitur eu vel augue. Phasellus faucibus arcu at tellus pellentesque ultrices. Nullam quis auctor nunc, a consectetur nunc. Morbi at tincidunt lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-
-    Phasellus et mi quis felis venenatis fermentum. Pellentesque et rutrum erat, iaculis iaculis ante. Ut consectetur, orci placerat tempus elementum, ligula lectus vulputate est, eget condimentum eros est id tellus. Ut in cursus sem. Cras est dui, pharetra id dui vel, tincidunt mattis arcu. Cras vitae arcu eu mi ornare malesuada. Maecenas vulputate elementum erat nec tempus. Maecenas et velit fringilla, sodales ligula et, ultricies arcu. Aenean eget urna ut eros sollicitudin sollicitudin. Sed ornare pharetra erat, mollis viverra tellus mattis bibendum. Sed tempor nisi at lorem lobortis consectetur. Donec fermentum ac ante in elementum.
+        <div class="banner">
+            <h2>Wolfsvale Software</h2>
+            <h4 class="banner__subtext">KVK 91173817 | FOSS development</h4>
+        </div>
+        <section class="main-body">
+            <div class="pageType">
+                <h1><a href="#about"><i class="fas fa-link"></i></a> About Wolfsvale Software</h1>
+            </div>
+            <div class="text-element" id="about">
+                <span class="text-expression">Our mission at Wolfsvale is to provide the market with more FOSS products.</span>
+                We want to ensure that <span class="text-expression">everyone</span> gets a chance, and would like to offer these chances by filling the gaps on the market.
+                We do not discriminate. We will make anything in our grasp for everyone in a cost-effective, yet effective manner.
+                We will also always maintain the software we produce. Created by a software development student, <span class="text-expression">Wolfsvale Software aims to learn, and to teach others.</span>
+                This way we can give the knowledge we have to others, and provide it in a meaningful way. We are a dutch company, and conform to the european laws.
+                All our developers with exception to the founder are volunteers.
+            </div>
+<!--            <div class="pageType">-->
+<!--                <h1><a href="#about"><i class="fas fa-link"></i></a> Team</h1>-->
+<!--            </div>-->
+<!--            <div class="text-element">-->
+<!--                Our team consists of volunteers, which you may see in our discord server. Due to the structure of the company, we are not able to hire contracted developers.-->
+<!--                Everyone in the team is aware of this, and voluntarily agreed to this when they joined. They are free to leave it any time if they wish to.-->
+<!--                <hr>-->
+<!--                Wolfsvale Studios is founded and owned by Joshua Slui. -->
+<!--                <a href="https://www.linkedin.com/in/joshuaslui/" target="_blank">-->
+<!--                    <i class="fab fa-linkedin"></i>-->
+<!--                </a>-->
+<!--            </div>-->
+        </section>
     </body>
 </html>
