@@ -106,15 +106,17 @@ body {
     .menu-container {
         width: 100%;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: flex-end; /* Align items to the left */
+        position: relative;
     }
 
     .menu-logo {
+        display: none;
         position: absolute;
         left: 0;
         top: 50%;
         transform: translateY(-50%);
-        z-index: 2;
+        z-index: 1;
     }
 
     .menu-logo img {
@@ -122,23 +124,41 @@ body {
     }
 
     .menu {
-        position: absolute;
-        box-sizing: border-box;
+        display: none;
         width: 100%;
-        right: -300px;
-        top: 0;
-        margin: -20px;
-        padding: 75px 50px 50px;
-        background: var(--primary-background);
-        -webkit-font-smoothing: antialiased;
-        /* to stop flickering of text in safari */
-        transform-origin: 0% 0%;
-        transform: translateX(0%);
-        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     }
 
     .menu-container input:checked ~ .menu {
-        transform: translateX(-100%);
+        display: flex;
+        position: relative;
+        flex-direction: row; /* Display menu items in a row */
+        align-items: flex-start; /* Align items to the left */
+        top: 100%;
+    }
+
+    .menu ul {
+        list-style: none;
+        padding: 0;
+        width: 50%; /* Adjust this width as needed */
+        /* You can also use media queries to set different widths for different screen sizes */
+    }
+
+    .menu li {
+        padding: 10px 0;
+        font-size: 22px;
+        display: flex;
+        justify-content: space-between; /* Align items to the left and right */
+        width: 100%;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: var(--primary-color);
+        transition: color 0.3s ease;
+    }
+
+    .menu a:hover {
+        color: var(--color-expressed);
     }
 }
 
