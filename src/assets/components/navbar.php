@@ -14,8 +14,7 @@
     <ul>
         <li><a href='../../../index.php'>Home</a></li>
         <li><a href='../../../about.php'>About</a></li>
-        <!--                 <li><a href='support.php'>Support</a></li> Temporarily replaced with discord support link until page finished-->
-        <li><a href='../../../support.php' target="_blank">Support</a></li>
+        <li><a href='../../../support.php'>Support</a></li>
         <li><a href='../../../privacy.php'>Privacy</a></li>
     </ul>
 </nav>
