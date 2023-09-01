@@ -8,3 +8,68 @@ html, body {
     margin: 0;
     font-family: var(--primary-text-font);
 }
+
+.main-body {
+    padding: 45px 0 55px;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    font-size: xx-large;
+}
+
+.banner>h2 {
+    margin-bottom: 0;
+}
+
+.banner__subtext {
+    color: var(--color-expressed);
+    margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .banner {
+        white-space: nowrap;
+        font-size: x-large;
+        padding: 45px 20px 55px;
+    }
+}
+
+.main-body>.pageType {
+    width: 100%;
+}
+
+.pageType {
+    padding: 0;
+    overflow: hidden;
+    margin: 20px 0;
+    font-size: x-large;
+    box-shadow: var(--expressing-box-shadow);
+}
+
+.pageType>* {
+    width: 100%;
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: xx-large;
+    flex-direction: row;
+}
+
+.text-element {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    font-size: large;
+}
+
+.text-expression {
+    color: var(--color-expressed)
+}
+
+a:hover {
+    color: var(--color-expressed)
+}
