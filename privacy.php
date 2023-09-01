@@ -45,7 +45,7 @@
             <span class="text-highlight">Wolfsvale Software</span> is responsible for protection of your data, we are a Dutch company, and follow the GDPR.
             <br><br>
             <b>Representative and owner:</b> Joshua Slui<br>
-            <b>Contact:</b> <a href="mailto:joshuaslui0203@gmail.com">joshuaslui0203@gmail.com</a>
+            <b>Contact:</b> <a href="mailto:privacy@wolfsvale.tech">privacy@wolfsvale.tech</a>
             <hr>
             <h2>Wolfsvale website privacy policy</h2>
             The wolfsvale website (as you are currently on) does not collect data itself.<br>
