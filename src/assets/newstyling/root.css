@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Play&display=swap');
+
+:root {
+    /* Our primary color scheme. Apply to text, and background. */
+    /* Make individual variables for individual elements. Do not use E.G. `primary-background` to make an unrelated color #fff */
+    --primary-background: #fff;
+    --primary-color: #000;
+    --color-expressed: #ae22ff;
+
+    --primary-text-font: 'Play', sans-serif;
+
+    --expressing-box-shadow: 0 10px 20px #afafaf;
+}
