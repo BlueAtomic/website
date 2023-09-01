@@ -11,17 +11,6 @@
     <?php include "src/assets/components/navbar.php"?>
 
     <body>
-        <nav id='menu'>
-            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
-            <ul>
-                <li><a href='index.php'>Home</a></li>
-                <li><a href='about.php'>About</a></li>
-<!--                 <li><a href='support.php'>Support</a></li> Temporarily replaced with discord support link until page finished-->
-                <li><a href='https://discord.gg/Ukr89GrMBk' target="_blank">Support</a></li>
-                <li><a href='privacy.php'>Privacy</a></li>
-            </ul>
-        </nav>
-
         <div class="container">
             <h1>Wolfsvale privacy policy</h1>
             Your privacy is our first priority. This is why we only store what is absolutely necessary,
