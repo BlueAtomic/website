@@ -8,10 +8,9 @@
         <meta name="viewport" content="width=device-width">
     </head>
 
-    <?php include_once('src/assets/components/navbar.php') ?>
 
     <body>
-
+        <?php include_once('src/assets/components/navbar.php') ?>
         <div style="margin-top: 50px" class="container">
             <div id="about">
                 <h1 class="center">About the company</h1>
@@ -60,7 +59,7 @@
                                         <img height="100px" class="image-round" src="$avatar" alt="$username">
                                         <div class="ml-10">
                                             <h3>$username</h3>
-                                            
+
                                         </div>
                                     </div>
                     EOL;

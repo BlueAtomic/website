@@ -6,9 +6,8 @@
         <meta name="viewport" content="width=device-width">
     </head>
 
-    <?php include "src/assets/components/navbar.php"?>
-
     <body>
+        <?php include "src/assets/components/navbar.php"?>
         <div class="container">
             <h1>Support</h1>
             With our products, you are not stuck to a certain level of support depending on how much you pay. We always check our support channels as soon as we can.
