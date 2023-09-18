@@ -6,9 +6,8 @@
         <meta name="viewport" content="width=device-width">
     </head>
 
-    <?php include "src/assets/components/navbar.php"?>
-
     <body>
+        <?php include "src/assets/components/navbar.php"?>
         <div class="container">
             <h1>Support</h1>
             With our products, you are not stuck to a certain level of support depending on how much you pay. We always check our support channels as soon as we can.
@@ -27,7 +26,7 @@
             <h2>Twitter</h2>
             You may also contact us on our twitter through PMs or by mentioning us. This is also only for generic support inqueries. Refer to our mail section for privacy concerns. We may not respond fast on twitter at all, as we do not currently link our support channels to a central location.
             <br>
-            <a href="twitter.com/WolfsvaleTech" target="_blank"><button class="btn btn-primary mt-10">Go to profile</button></a>
+            <a href="https://twitter.com/WolfsvaleTech" target="_blank"><button class="btn btn-primary mt-10">Go to profile</button></a>
         </div>
 
         <?php include_once('src/assets/components/footer.php') ?>

@@ -8,9 +8,9 @@
         <meta name="viewport" content="width=device-width">
     </head>
 
-    <?php include "src/assets/components/navbar.php"?>
 
     <body>
+        <?php include "src/assets/components/navbar.php"?>
         <div class="container">
             <h1>Wolfsvale privacy policy</h1>
             Your privacy is our first priority. This is why we only store what is absolutely necessary,
