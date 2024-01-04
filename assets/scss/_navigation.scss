@@ -1,0 +1,103 @@
+$primary-background: #292F36;
+$secondary-background: #20252A;
+$primary-textColor: #EDF2F4;
+$box-color: #F40076;
+
+.navigation {
+  background-color: $secondary-background;
+  display: flex;
+  padding: .5rem;
+  box-shadow: $box-color 0 0 .5rem;
+
+  &__header {
+    @media only screen and (max-width: 767px) {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    &__items {
+      width: 100%;
+      transition: max-height 0.5s ease-out;
+    }
+  }
+
+  &__wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 1rem;
+
+    @media only screen and (max-width: 767px) {
+      flex-direction: column;
+    }
+  }
+
+  &__burger {
+    display: none;
+    background: unset;
+    border: unset;
+
+    &-icon>path {
+      color: $box-color !important;
+      fill: $box-color;
+    }
+
+    @media only screen and (max-width: 767px) {
+      display: unset
+    }
+  }
+
+  &__title {
+    text-decoration-color: $box-color;
+  }
+
+  &__links {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+    @media only screen and (max-width: 767px) {
+      flex-direction: column;
+      width: 100%;
+      gap: unset;
+    }
+
+    &-item {
+      @media only screen and (max-width: 767px) {
+        padding: .5rem;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        background-color: $primary-background;
+      }
+
+      &__link {
+        text-decoration: none;
+      }
+
+      &__link:hover {
+        color: $box-color;
+      }
+    }
+  }
+
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hidden {
+    max-height: 0;
+    display: none;
+  }
+}
