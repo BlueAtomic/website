@@ -1,0 +1,17 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "navigation";
+
+$primary-textColor: #EDF2F4;
+$primary-background: #292F36;
+
+* {
+  color: $primary-textColor;
+  font-family: 'Play', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $primary-background;
+  width: 100%;
+}
