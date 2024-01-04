@@ -42,6 +42,7 @@
 	function toggleNav() {
         isOpen = !isOpen
 		let links = document.getElementById('navigation-links')
+		let nav = document.getElementById('navi-trans')
 		let icons = document.getElementById('navigation-icons')
 
 		if (isOpen) {
