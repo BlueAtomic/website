@@ -14,10 +14,10 @@
 					<a class="navigation__links-item__link" href="/about">About us</a>
 				</li>
 				<li class="navigation__links-item">
-					<a class="navigation__links-item__link" href="/support">Get Support</a>
+					<a class="navigation__links-item__link" href="/support">Support</a>
 				</li>
 				<li class="navigation__links-item">
-					<a class="navigation__links-item__link" href="/projects">Our projects</a>
+					<a class="navigation__links-item__link" href="/projects">Projects</a>
 				</li>
 			</ul>
 		</div>
@@ -40,7 +40,6 @@
 <script>
 	let isOpen = false;
 	function toggleNav() {
-        isOpen = !isOpen
 		let links = document.getElementById('navigation-links')
 		let icons = document.getElementById('navigation-icons')
 
@@ -51,5 +50,7 @@
             links.classList.remove('hidden')
 			icons.classList.remove('hidden')
 		}
+
+        isOpen = !isOpen
 	}
 </script>
