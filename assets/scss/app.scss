@@ -1,5 +1,7 @@
 @import "@fortawesome/fontawesome-free/css/all.css";
 @import "navigation";
+@import "home";
+@import "attributes";
 
 $primary-textColor: #EDF2F4;
 $primary-background: #292F36;
@@ -9,6 +11,7 @@ $primary-background: #292F36;
   font-family: 'Play', sans-serif;
   margin: 0;
   padding: 0;
+  border: none;
 }
 
 body {
