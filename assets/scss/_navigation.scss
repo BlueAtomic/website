@@ -99,5 +99,6 @@ $box-color: #F40076;
   .hidden {
     max-height: 0;
     display: none;
+    transition: max-height 0.5s ease-out;
   }
 }
