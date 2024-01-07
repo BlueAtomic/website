@@ -17,20 +17,6 @@ $box-color: #F40076;
     }
   }
 
-  @media only screen and (max-width: 767px) {
-    &__items {
-      width: 100%;
-      transition: max-height 0.5s ease-out;
-    }
-  }
-    @media only screen and (max-width: 767px) {
-    &__items1 {
-      width: 100%;
-      transition: max-height 0.5s ease-out;
-    }
-  }
-
-
   &__wrapper {
     align-items: center;
     display: flex;
@@ -106,5 +92,6 @@ $box-color: #F40076;
   .hidden {
     max-height: 0;
     display: none;
+    transition: max-height 0.5s ease-out;
   }
 }
