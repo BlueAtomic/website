@@ -12,5 +12,31 @@
 
 	<body>
 		<?php include './assets/components/pageParts/navigation.php' ?>
+
+		<section class="hero">
+			<div class="hero__header">
+				<h1>A FOSS initiative.</h1>
+				<p class="hero__subtitle">Software for all markets and needs, for everyone.</p>
+			</div>
+			<div>
+
+				<button class="button button__secondary button__secondary-left">
+					<i class="fas fa-hammer"></i>
+					<a class="button__link" href="projects">Projects</a>
+				</button>
+
+				<button class="button button__secondary button__secondary">
+					<i class="fas fa-user-group"></i>
+					<a class="button__link" href="about">About us</a>
+				</button>
+
+				<button class="button button__secondary button__secondary-right">
+					<i class="fas fa-contact-card"></i>
+					<a class="button__link" href="support">Support</a>
+				</button>
+
+			</div>
+			<p>2022 - <?= date("Y")?> © Wolfsvale Software</p>
+		</section>
 	</body>
 </html>
