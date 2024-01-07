@@ -1,0 +1,26 @@
+{
+  "name": "sass-compiler",
+  "version": "1.0.0",
+  "description": "Simplistic compiler for SASS",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css",
+    "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolfsvale/website.git"
+  },
+  "author": "Wolfsvale Software",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wolfsvale/website/issues"
+  },
+  "homepage": "https://github.com/Wolfsvale/website#readme",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2"
+  }
+}
