@@ -5,6 +5,8 @@ $box-color: #F40076;
 
 .navigation {
   background-color: $secondary-background;
+  position: fixed;
+  width: 100%;
   display: flex;
   padding: .5rem;
   box-shadow: $box-color 0 0 .5rem;
